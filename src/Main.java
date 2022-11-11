@@ -20,7 +20,7 @@ public class Main {
         Smartphone cloneSmartphone = null;
 
         try{
-            cloneSmartphone =(Smartphone) iphone.clone();
+            cloneSmartphone =(Smartphone) apple.clone();
         }catch(CloneNotSupportedException e){
             e.printStackTrace();
             System.out.println("Unable clone the device");
@@ -28,14 +28,14 @@ public class Main {
 
         System.out.println("Cloned device \n" + cloneSmartphone);
 
-        if(iphone.equals(cloneSmartphone)){
+        if(apple.equals(cloneSmartphone)){
             System.out.println("The second device and the cloned smartphone, are equals!");
         }
     }
 }
 /**
- * io dalle video lezioni non ho ben chiaro come funzioni la  clonatura
- * penso che andrò a vedermi dei video per capire, e una volta conclusi gli es te lo rinvio
+ * grazie!
+ * ps. seppur l'es è giusto, io fatico a comprendere i passaggi
  */
 
 
